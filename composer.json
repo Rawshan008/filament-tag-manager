@@ -3,6 +3,12 @@
     "description": "A tag manager for FilamentPHP",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Rawshan008",
+            "email": "rawshanars@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Rawshan008\\FilamentTagManager\\": "src/"
