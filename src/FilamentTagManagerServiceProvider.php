@@ -3,7 +3,6 @@
 namespace Rawshan008\FilamentTagManager;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Schema;
 
 class FilamentTagManagerServiceProvider extends ServiceProvider
 {
