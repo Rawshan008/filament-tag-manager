@@ -14,13 +14,13 @@
             "Rawshan008\\FilamentTagManager\\": "src/"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "laravel": {
             "providers": [
                 "Rawshan008\\FilamentTagManager\\FilamentTagManagerServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
