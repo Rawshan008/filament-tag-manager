@@ -1,18 +1,26 @@
 {
     "name": "rawshan008/filament-tag-manager",
+    "description": "A tag manager for FilamentPHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rawshan008",
+            "email": "rawshanars@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Rawshan008\\FilamentTagManager\\": "src/"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "laravel": {
             "providers": [
                 "Rawshan008\\FilamentTagManager\\FilamentTagManagerServiceProvider"
-            ],
-            "aliases": {
-                "FilamentTagManager": "Rawshan008\\FilamentTagManager\\Facades\\FilamentTagManager"
-            }
+            ]
         }
     }
 }
