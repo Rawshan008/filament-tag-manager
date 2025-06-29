@@ -6,6 +6,7 @@ use Filament\Panel;
 use Filament\Contracts\Plugin;
 use Rawshan008\FilamentTagManager\Resources\TagResource;
 use Rawshan008\FilamentTagManager\Resources\CategoryResource;
+use Rawshan008\FilamentTagManager\Resources\PostResource;
 
 
 class FilamentTagManagerPlugin implements Plugin
@@ -20,6 +21,7 @@ class FilamentTagManagerPlugin implements Plugin
     $panel->resources([
       TagResource::class,
       CategoryResource::class,
+      PostResource::class,
     ]);
   }
 

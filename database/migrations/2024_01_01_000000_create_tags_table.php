@@ -12,10 +12,6 @@ return new class extends Migration
       $table->id();
       $table->string('name')->unique();
       $table->timestamps();
-      $table->softDeletes();
-
-      $table->index(['name']);
-      $table->index(['created_at']);
     });
   }
 
